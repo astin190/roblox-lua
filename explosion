@@ -1,0 +1,7 @@
+local explosion = Instance.new("Explosion")
+explosion.Position = game.Players.astin_190.Position
+explosion.Parent = game.Workspace
+explosion.BlastRadius = 10
+explosion.BlastPressure = 1000000
+explosion.Visible = true
+explosion.DestroyJointRadiusPercent = 0
